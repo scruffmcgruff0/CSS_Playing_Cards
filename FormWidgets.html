@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Widgets</title>
+
+</head>
+<body>
+  <div>
+    <p><select name="sport"> <!-- The <select> element creates a dropdown menu-->
+      <option value="football">Football</option>
+      <option value="baseball">Baseball</option>
+      <option value="basketball">Basketball</option>
+      <option value="hockey">Hockey</option>
+      <option value="soccer">Soccer</option>
+    </select></p>
+  </div>
+
+  <div>
+    <select name="flagcolors" size="4" multiple> <!--Multiple allows selection of multiple options at one time. Size will render number of visual options at once without scrolling-->
+      <option value="red">Red</option>
+      <option value="orange">Orange</option>
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="purple">Purple</option>
+      <option value="white">White</option>
+      <option value="black">Black</option>
+    </select>
+  </div>
+
+  <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Your username">
+      
+      <br> <!-- Line break for spacing -->
+
+      <label for="classified">Password</label>
+      <input type="password" name="classified" id="classified" size="10" maxlength="10">
+  </div>
+
+  <div>
+    <fieldset>
+      <legend>Favorite show</legend>
+  
+      <input type="radio" name="show" value="The Office" id="theOffice">
+      <label for="theOffice">The Office</label>
+  
+      <input type="radio" name="show" value="Rick and Morty" id="rickAnd">
+      <label for="rickAnd">Rick and Morty</label>
+  
+      <input type="radio" name="show" value="The Big Bang Theory" id="bigBang">
+      <label for="bigBang">The Big Bang Theory</label>
+  
+      <input type="radio" name="show" value="Other" id="other">
+      <label for="other">Other</label>
+    </fieldset>
+  </div>
+
+  <div>
+    <input list="sportsList" id="sportInput" placeholder="Pick a sport..."> <!--The id links the input to the datalist-->
+
+    <datalist id="sportsList">
+      <option value="Baseball">
+      <option value="Basketball">
+      <option value="Football">
+      <option value="Hockey">
+      <option value="Soccer">
+    </datalist>
+  </div>
+
+  <div>
+    <input type="range" id="volume" name="volume" min="0" max="100" value="50" oninput="updateVolumeValue(this.value)"> <!--The range input creates a slider-->
+    <label for="volume">Volume: <span id="volumeValue">50</span></label>
+  </div>
+
+  <script> //JavaScript s used to update the volume value upon interacting with
+    function updateVolumeValue(value) { 
+      document.getElementById('volumeValue').textContent = value;
+    }
+  </script>
+
+</body>
+</html> 
+
