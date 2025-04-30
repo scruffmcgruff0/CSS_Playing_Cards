@@ -5,3 +5,4 @@ Welcome! This repositry contains various HTML and CSS projects I've built to pra
 # Screenshots
 ![Playing Cards](https://github.com/user-attachments/assets/c38623e5-70a6-4ad7-a7c2-f12d075a9978)
 ![Buttons](https://github.com/user-attachments/assets/57da2746-e1fc-4eb8-8dcf-c57ce29ab93d)
+![AmazonMockWebsite](https://github.com/user-attachments/assets/6580a162-4b5f-4284-80fa-03b333169fe1)
