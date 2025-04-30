@@ -4,4 +4,6 @@ This easy project demonstrates creation of a cool playing card display using CSS
   - Author: @scruffmcgruff0
   - Version: 4-29-2025
 
-# 
+# Contents
+  - Cards.html is the sole file and provides the styles for the display.
+  
