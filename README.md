@@ -1,9 +1,6 @@
-# CSS Playing Cards
+# HTML & CSS Projects
 
-This project demonstrates creation of a cool playing card display using CSS and html5. This is a very simple project, so I am using internal CSS.
-  - Author: @scruffmcgruff0
-  - Version: 4-30-2025
+Welcome! This repositry contains various HTML and CSS projects I've built to practice and improve my front-end web development skills. Feel free to explore, learn from the code, or use these as inspiration for your own projects!
 
-# Contents
-  - Cards.html is the sole file and provides the styles for the display.
-  
+# Screenshots
+![Playing Cards](https://github.com/user-attachments/assets/c38623e5-70a6-4ad7-a7c2-f12d075a9978)
