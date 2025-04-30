@@ -1,6 +1,7 @@
 # HTML CSS JavaScript Projects
 
-Welcome! This repository contains various HTML, CSS, and JavaScript projects I've built to practice and improve my front-end web development skills. Feel free to explore, learn from the code, or use these as inspiration for your own projects!
+Welcome! 
+This repository contains various HTML, CSS, and JavaScript projects I have created to improve my front-end web dev skills. Feel free to explore, learn from the code, or use these as inspiration for your own projects!
 
 # Screenshots
 ![Screenshot 2025-04-30 at 12-49-41 ](https://github.com/user-attachments/assets/e55e3d62-8f3e-4464-b599-e73c9d4e1e71)
